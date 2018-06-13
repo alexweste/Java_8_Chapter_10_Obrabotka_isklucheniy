@@ -1,6 +1,6 @@
-package Interface3_dinamic_Stack;
+package Interface4;
 //реализация "наращиваемого" стека
-public class DynStack {
+public class DynStack implements Interface4.IntStack{
     private int stck[]; //массив для хранения стека целочисленных значений
     private int tos;    //индекс вершины стека
 
